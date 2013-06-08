@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ROM Control</string>
+
+    <!-- Header Strings -->
+    <string name="user_interface">Интерфейс</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">OK</string>
+    <string name="menu_main_activity_change_locale">Пусто!</string>
+    <string name="header_statusbar">Панель состояния</string>
+    <string name="header_navbar">Панель навигации</string>
+    <string name="toggles_layout">Переключатели</string>
+    <string name="general_ui">Основное</string>
+    <string name="clock">Часы</string>
+    <string name="battery">Батарея</string>
+    <string name="signal">Сигнал</string>
+    <string name="nav_bar">Панель навигации</string>
+    <string name="power_menu">Меню питания</string>
+    <string name="led_options">Светодиод</string>
+    <string name="header_system">Система</string>
+    <string name="sound">Звук</string>
+    <string name="lockscreen_options">Экран блокировки</string>
+    <string name="title_ribbon">Выдвижная панель</string>
+    <string name="weather">Погода</string>
+    <string name="tools">Инструменты</string>
+
+    <!-- Activity titles defined in AndroidManifest.xml -->
+    <string name="title_about">Об AOKP</string>
+    <string name="title_ui">Базовый Интерфейс</string>
+    <string name="title_statusbar_clock">Часы в панели состояния</string>
+    <string name="title_statusbar_toggles">Переключатели панели состояния</string>
+    <string name="title_statusbar_battery">Батарея в панели состояния</string>
+    <string name="title_navbar">Панель навигации</string>
+    <string name="title_power_menu">Меню питания</string>
+    <string name="title_led">Управление светодиодом</string>
+    <string name="title_lockscreens">Опции экрана блокировки</string>
+    <string name="title_lockscreens_targets">Кнопки экрана блокировки</string>
+    <string name="title_navring">Кольцо в панели навигации</string>
+    <string name="title_sound">Настройки звука</string>
+    <string name="title_weather">Настройка погоды</string>
+    <string name="title_performance">Настройки производительности</string>
+    <string name="title_clipboard_share">Копировать в буфер</string>
+    <string name="ribbon_settings_title">Выдвижная панель</string>
+
+    <!-- Header Summaries -->
+    <string name="header_summary_clock">@null</string>
+    <string name="header_summary_toggles">@null</string>
+    <string name="header_summary_general_ui">@null</string>
+    <string name="header_summary_battery">@null</string>
+    <string name="header_summary_signal">@null</string>
+    <string name="header_summary_navigation_bar">@null</string>
+    <string name="header_summary_power_menu">@null</string>
+    <string name="header_summary_led">@null</string>
+    <string name="header_summary_sound">@null</string>
+    <string name="header_summary_performance">@null</string>
+    <string name="header_summary_lockscreens">@null</string>
+    <string name="header_summary_weather">@null</string>
+    <string name="header_summary_vibrations">@null</string>
+
+    <!-- Menu Strings -->
+    <string name="menu_nav_bar_reset">Сброс панели навигации</string>
+    <string name="menu_ribbon_reset">Сброс панели</string>
+    <string name="menu_ribbon_apps">Сброс приложений</string>
+    <string name="menu_ribbon_rearrange">Переустановка панели</string>
+    <string name="menu_ribbon_hide">Скрыть приложения</string>
+    <string name="menu_ribbon_toggles">Настройка переключателей</string>
+    <string name="menu_ribbon_na">Нет</string>
+    <string name="menu_ribbon_toggles_error">Переключения доступны только для левой и правой панели.</string>
+    <string name="menu_user_interface_reset">Сброс фона уведомлений</string>
+    <string name="menu_lockscreens_reset">Сброс фона экрана блокировки</string>
+
+    <!-- General Strings -->
+    <string name="advanced_settings">Расширенные настройки</string>
+    <string name="misc_short">Прочее</string>
+    <string name="custom_app_icon_successfully">"успешно применен!"</string>
+
+    <!-- Power Menu -->
+    <string name="title_show_power_saver">"Показать режим энергосбережения"</string>
+    <string name="title_show_screenshot">"Показать получение скриншота"</string>
+    <string name="title_show_torch_toggle">Показать звук/вибрация</string>
+    <string name="title_show_airplane_toggle">Показать режим полета</string>
+    <string name="title_show_navbar_hide">Показать/скрыть панель навигации</string>
+
+    <!-- Power Saving -->
+    <string name="title_pref_powersaving_pref_mode">Включить энергосбережение</string>
+    <string name="summary_pref_powersaving_pref_mode">@null</string>
+
+    <string name="title_pref_powersaving_data_screen_off">Сети при выкл. экрана</string>
+    <string name="summary_pref_powersaving_data_screen_off">Что делать с сетью, когда экран отключается</string>
+
+    <string name="title_pref_powersaving_data_screen_off_delay">Задержка переключения сети</string>
+    <string name="summary_pref_powersaving_data_screen_off_delay">Сколько ждать перед изменением состояния сети?</string>
+
+    <!-- Shortcut picker -->
+    <string name="use_custom_app_title">Использовать свое приложение</string>
+    <string name="use_custom_app_summary">Персональный список вместо недавних приложений</string>
+    <string name="select_custom_app_title">Выбрать приложение</string>
+    <string name="group_applications">Приложения</string>
+
+    <!-- About -->
+    <string name="devs">Команда</string>
+    <string name="aokp">Android Open Kang Project</string>
+    <string name="aokp_website_title">Сайт AOKP</string>
+    <string name="aokp_website_summary">www.aokp.co - новые релизы ТУТ.</string>
+    <string name="aokp_source_title">Код AOKP</string>
+    <string name="aokp_source_summary">AOKP полностью open source. Свежие обновления кода - github.com/aokp</string>
+    <string name="aokp_review_title">Просмотри изменений в AOKP</string>
+    <string name="aokp_review_summary">Обзор патчей AOKP</string>
+    <string name="aokp_irc_title">Вход в IRC</string>
+    <string name="aokp_irc_summary">#teamkang @ irc.freenode.net</string>
+    <string name="about_aokp">О AOKP</string>
+    <string name="about_aokp_summary">@null</string>
+    <string name="donate_roman">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MZD7JLRX6P99Y</string>
+    <string name="donate_whitehawk">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=8W7F2Y7S7KRM6</string>
+    <string name="donate_zaph">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=AW4DJFL3UWKS2</string>
+    <string name="donate_protekk">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=YJTUMSBC2TRHS</string>
+    <string name="donate_khasmek">http://nyan.cat</string>
+    <string name="donate_sethyx">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=5R4DYJLDYDRAU</string>
+    <string name="donate_adam">http://goo.gl/fRj57</string>
+    <string name="donate_kwes">https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=HGAN9G5ZJ2AAS&amp;lc=US&amp;item_name=kwes1020&amp;currency_code=USD&amp;bn=PP%%2dDonationsBF%%3abtn_donateCC_LG%2egif%%3aNonHosted</string>
+    <string name="donate_nitroz">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=U27ZAWB8995TS</string>
+    <string name="donate_xoom">http://bit.ly/t7YC5Z</string>
+    <string name="donate_marclandis">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=7FN44KF8XZXFW</string>
+    <string name="donate_sixstringsg">https://www.paypal.com/cgi-bin/webscr?cmd=_flow&amp;SESSION=U3KYhTz6itHx8bKvx-F79EFVY5sQKKQu9f1ftkJ1pevFN6wdaJLu8yz3Y3e&amp;dispatch=5885d80a13c0db1f8e263663d3faee8d1e83f46a36995b3856cef1e18897ad75</string>
+    <string name="donate_just_reboot">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=WEZKU46DAFMSW</string>
+    <string name="donate_stevespear">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=6SY3WH7AZNR7Y</string>
+    <string name="donate_birdman">https://support.woundedwarriorproject.org/Default.aspx?tsid=66&amp;campaignSource=WEBSITE</string>
+
+    <!-- General UI -->
+    <string name="bootani_cat">Анимация при загрузке</string>
+    <string name="navbar_cat">Панель навигации</string>
+    <string name="notification_cat">Уведомления</string>
+    <string name="tabletUI_cat">Tablet UI</string>
+    <string name="status_bar_notif_count_title">Показывать число уведомлений</string>
+    <string name="status_bar_notif_count_summary">Показывать число ожидающих уведомлений на панели</string>
+    <string name="vibrate_notif_expand_title">Вибрация</string>
+    <string name="vibrate_notif_expand_summary">Вибрация уведомления (requires UI restart)</string>
+    <string name="disable_bootanimation_title">Отключить анимацию</string>
+    <string name="custom_bootanimation_title">Своя анимация</string>
+    <string name="custom_bootanimation_summary">Выберите свою анимацию в формате ZIP на карте памяти. Старая будет сохранена в /system/media.</string>
+    <string name="install_file_manager_error">Нечем выбирать файл zip. Установите файл-менеджер.</string>
+    <string name="notification_wallpaper_title">Выбрать фон уведомлений</string>
+    <string name="notification_wallpaper_summary">Можно отключить фон в меню в данном окне</string>
+    <string name="notif_wallpaper_alpha_title">Прозрачность фона уведомлений</string>
+    <string name="alpha_dialog_title">Указать значение</string>
+    <string name="custom_carrier_label_title">Свой текст оператора</string>
+    <string name="custom_carrier_label_explain">Введите свой вариант, или оставьте пустым для возврата настоящего имени.</string>
+    <string name="custom_carrier_label_notset">Имя не установлено</string>
+    <string name="ime_switcher_title">Показывать переключатель IME</string>
+    <string name="ime_switcher_summary">В уведомлениях при печати</string>
+    <string name="wakeup_when_plugged_unplugged_title">Пробуждение устройства</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Пробуждение устройства, при подключении и отключении зарядного устройства.</string>
+    <string name="lefty_mode_title">Режим левши</string>
+    <string name="lefty_mode_summary">Смена расположения NavBar(требуется перезагрузка UI)</string>
+    <string name="rotate_180_title">Разрешить переворот экрана</string>
+    <string name="rotate_180_summary">Переворачивает ваш экран при перевороте устройства!</string>
+    <string name="recent_kill_all">Включить кнопку "Убить все"</string>
+    <string name="recent_kill_all_summary">Добавляет кнопку "Убить все" в список недавних приложений (требуется перезагрузка UI)</string>
+    <string name="ram_bar">Использование памяти</string>
+    <string name="ram_bar_summary">Показать использование памяти в меню</string>
+    <string name="longpress_to_kill">Закрыть по долгому "Назад"</string>
+    <string name="longpress_to_kill_summary">Закрывает текущее приложение если зажать кнопку "Назад"</string>
+    <string name="tablet_ui">Принудительный планшетный UI</string>
+    <string name="tablet_ui_summary">Изменяет отображение приложений на планшетное (после перезагрузки)</string>
+    <string name="hide_extras">Hide Extras</string>
+    <string name="hide_extras_summary">Скрыть элементы систем бара(требуется перезагрузка UI)</string>
+    <string name="bootanimation_preview">Предпросмотр загрузочной анимации</string>
+    <string name="apply">Применить</string>
+    <string name="clear_custom_bootanimation">Очистить пользовательскую анимацию</string>
+    <string name="set_custom_bootanimation">Включить пользовательскую анимацию</string>
+    <string name="creating_preview">Создать предпросмотр...</string>
+    <string name="error_reading_zip_file">Ошибка чтения zip</string>
+    <string name="error_creating_preview">Ошибка создания просмотра</string>
+    <string name="multipane_ui">2хпанельный вид</string>
+    <string name="multipane_ui_summary">Включает/отключает 2хпанельный вид интерфейса (после перезагрузки)</string>
+    <string name="show_overflow_title">Показ меню в приложениях</string>
+    <string name="show_overflow_summary">Показывать меню в приложениях, кнопка с 3мя точками</string>
+    <string name="show_overflow_toast_enable">Кнопка меню может не быть видна при перезапуске приложения</string>
+    <string name="show_overflow_toast_disable">Кнопка меню может не быть видна при перезапуске приложения</string>
+    <string name="notification_show_wifi_ssid_title">Показать имя сети Wi-Fi</string>
+    <string name="notification_show_wifi_ssid_summary">Отображение названия текущей подключенной сети Wi-Fi</string>
+    <string name="brightness_slider_title">Ползунок яркости в строке состояния</string>
+    <string name="brightness_slider_summary">Позволяет провести пальцем вдоль верхней части строки состояния для изменения яркости. Ничего не делает, когда включена автояркость.</string>
+
+    <!-- LCD Density -->
+    <string name="lcd_density_title">Разрешение экрана</string>
+    <string name="lcd_density_summary">неизвестно</string>
+    <string name="current_lcd_density">"Текущее разрешение: "</string>
+    <string name="lcd_density_wizard">Помощник</string>
+    <string name="follow_through_title">Следуйте всем пунктам.</string>
+    <string name="follow_through_summary">Вы должны пройти по всем пункатам, 1 за другим.</string>
+    <string name="stock_density_title">1. Изменить разрешение на "умолчания"</string>
+    <string name="stock_density_summary">Планшеты и старые телефоны 160. Многие телефоны 240. Некоторые устройства 320.</string>
+    <string name="stock_density_changed_summary">"Установить значение: "</string>
+    <string name="reboot_title">2. Перезагрузка!</string>
+    <string name="reboot_summary">Вернитесь сюда после перезагрузки и продолжайте выполнение!</string>
+    <string name="clear_market_data_title">3. Очистить данные Play.Google</string>
+    <string name="clear_market_data_cleared">Удаляет все данные, которые могут вызвать несовместимость при смене разрешения</string>
+    <string name="clear_market_data_donot_cleared">"Данные не были удалены! Повоторите попытку или удалите их самостоятельно"</string>
+    <string name="dpi">DPI</string>
+    <string name="open_market_title">4. Войти в маркет и нажать "Согласен"</string>
+    <string name="open_market_summary">Нажмите "Назад" для возврата в данное меню.</string>
+    <string name="open_market_summary_could_not_open">"Не могу открыть Маркет. Если вы уверены в его наличии - войдите в него при помощи меню приложений лончера."</string>
+    <string name="custom_density_title">5. Выберите разрешение на ваш вкус!</string>
+    <string name="custom_density_summary">Если появились проблемы совместимости приложений при попытке установки - вернитесь сюда и повторите процесс</string>
+    <string name="custom_density_summary_invalid">"Неправильное разрешение!"</string>
+    <string name="custom_density">Своё</string>
+    <string name="set_custom_density_title">Установить своё значение</string>
+    <string name="set_custom_density_set">Установить</string>
+    <string name="custom_density_dialog_title">"Внимание!"</string>
+    <string name="custom_density_dialog_summary">"Если появились проблемы в работе приложений - вернитесь сюда и повторите процесс начиная с пункта 1."</string>
+    <string name="custom_density_dialog_button_got">Я понял!</string>
+    <string name="custom_density_dialog_button_reboot">Перезагрузка</string>
+
+    <!-- Statusbar | Toggles -->
+    <string name="toggle_style_title">Выбрать стиль</string>
+    <string name="toggle_style_summary">Показывать текст или значок на переключателях.</string>
+    <string name="toggles_layout_title">Вид переключателей</string>
+    <string name="enabled_toggles_title">Выбор переключателей</string>
+    <string name="enabled_toggles_summary">какие переключатели показывать</string>
+    <string name="toggles_display_dialog">Выберите, какие переключатели будут показаны</string>
+    <string name="toggles_display_close">Закрыть</string>
+    <string name="toggles_order_title">Порядок</string>
+    <string name="toggles_order_summary">Выберите, в каком порядке переключатели будут находиться</string>
+    <string name="title_settings_behavior">Использовать по умолчанию</string>
+    <string name="summary_settings_behavior_default">Короткое нажатие для настройки. Длительное нажатие для переключения</string>
+    <string name="summary_settings_behavior_reverse">Короткое нажатие для переключения. Длительное нажатие для настройки</string>
+    <string name="title_toggles_autohide">Автоматически убирать с экрана переключатели</string>
+    <string name="summary_toggles_autohide">Автоскрытие переключателей.</string>
+    <string name="brightness_location_title">Расположение ползунка яркости</string>
+    <string name="reset_toggles_title">Сбросить переключатели</string>
+    <string name="reset_toggles_summary">Сбросить все параметры переключателей</string>
+    <string name="toggle_button_alpha_title">Прозрачность переключателей</string>
+    <string name="toggle_btn_enabled_color_title">Цвет включенного</string>
+    <string name="toggle_btn_disabled_color_title">Цвет выключенного</string>
+    <string name="toggle_btn_background_title">Прозрачность фона</string>
+    <string name="toggle_text_color_title">Цвет текста</string>
+    <string name="toggle_enable_fasttoggle_title">Включить быстрое переключение</string>
+    <string name="toggle_enable_fasttoggle_summary">Переопределить значения по умолчанию</string>
+    <string name="toggle_choose_fasttoggle_side_title">Выбрать для быстрого переключения</string>
+    <string name="toggle_choose_fasttoggle_side_summary">Выбрать сторону быстрого переключения</string>
+
+    <!-- Statusbar | Clock -->
+    <string name="clock_title_enable">Стиль часов</string>
+    <string name="title_clock_ampm_entries">AM/PM</string>
+    <string name="enable_clock_weekday">День недели</string>
+    <string name="enable_clock_weekday_summary">Аббревиатура дня недели перед временем</string>
+    <string name="enable_clock_month">Отображение даты</string>
+    <string name="enable_clock_month_summary">Выбор отображения даты</string>
+    <string name="enable_clock_month_style">Стиль даты</string>
+    <string name="enable_clock_month_style_summary">Стиль отображения датып</string>
+    <string name="colors">Цвет</string>
+    <string name="clock_color_title">Цвет часов</string>
+    <string name="alarm">Будильник</string>
+    <string name="clock_options">Опции часов</string>
+    <string name="nothing">Нет</string>
+    <string name="today">Событие на сегодня</string>
+    <string name="event">Новое событие</string>
+    <string name="voiceassist">Голосовые команды</string>
+    <string name="title_clock_doubleclick">Двойное нажатие на часы</string>
+    <string name="title_clock_longclick">Долгое нажатие на часы</string>
+    <string name="title_clock_shortclick">Кратковременное нажатие на часы</string>
+
+    <!-- Toggle Strings to be called from device overlays -->
+    <string name="toggle_airplane_mode">Режим полета</string>
+    <string name="toggle_auto_rotate">Автоповорот</string>
+    <string name="toggle_bluetooth">Bluetooth</string>
+    <string name="toggle_fast_charge">Быстрый заряд</string>
+    <string name="toggle_gps">GPS</string>
+    <string name="toggle_lte">LTE</string>
+    <string name="toggle_data">Мобильная передача</string>
+    <string name="toggle_nfc">NFC</string>
+    <string name="toggle_silent">Звук</string>
+    <string name="toggle_swagger">Swagger</string>
+    <string name="toggle_sync">Синхронизация</string>
+    <string name="toggle_torch">Фонарик</string>
+    <string name="toggle_2g">2G</string>
+    <string name="toggle_usb_tether">Раздача по USB</string>
+    <string name="toggle_vibrate">Вибро</string>
+    <string name="toggle_wifi_ap">Раздача интернет</string>
+    <string name="toggle_wifi">Wi-Fi</string>
+
+    <!-- Statusbar | Battery -->
+    <string name="battery_icon">Стиль значка батареи</string>
+    <string name="battery_not_title">Значок батареи в уведомлениях</string>
+    <string name="battery_not_summary">Показывает значок батареи рядом с кнопкой очистки уведомлений</string>
+    <string name="battery_bar">Расположение полосы заряда</string>
+    <string name="battery_bar_color">Цвет полосы заряда</string>
+    <string name="battery_bar_cat">Опции полосы заряда</string>
+    <string name="battery_bar_style_title">Стиль полосы заряда</string>
+    <string name="battery_bar_thickness_title">Толщина полосы заряда</string>
+    <string name="battery_bar_animate_title">Анимация зарядки</string>
+    <string name="battery_bar_animate_summary">Анимация может вызывать тормоза интерфейса.</string>
+
+    <!-- Statusbar | Signal -->
+    <string name="signal_style">Вид индикатора сети</string>
+    <string name="signal_color_title">Цвет сигнала сети</string>
+    <string name="hide_signal_title">Скрыть сигнал</string>
+    <string name="hide_signal_summary">Обновлять при изменении уровня</string>
+    <string name="wifi_signal_style">Вид индикатораWiFi</string>
+    <string name="wifi_signal_color_title">Цвет сигнала WiFi</string>
+    <string name="alt_signal_title">Другой вид</string>
+    <string name="alt_signal_summary">Сигнал в стиле GB</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Палитра</string>
+    <string name="press_color_to_apply">Нажать на цвет для применения</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#FF000000</string>
+    <string name="set">Установить</string>
+    <string name="ics_color">Holo</string>
+
+    <!-- Navigation Bar -->
+    <string name="navigation_bar">Панель навигации</string>
+    <string name="navbar_button_cat">Кнопки панели</string>
+    <string name="title_pref_menu_display">Расположение меню</string>
+    <string name="summary_pref_menu_display">Удалите ваши кнопки меню, если используете большие кнопки!</string>
+    <string name="title_pref_navigation_menu_display">Отображение меню</string>
+    <string name="summary_pref_navigation_menu_display">Как и когда вы желаете видеть кнопки панели?</string>
+    <string name="navbar_qty_title">Количество кнопок панели</string>
+    <string name="navbar_qty_summary">Выберите число отображаемых кнопок</string>
+    <string name="navbar_action_title">Действие кнопки %1$s и ее значок</string>
+    <string name="button_transparency_title">Прозрачность кнопок</string>
+    <string name="navbar_width_help_title">Общая ширина</string>
+    <string name="navbar_width_help_summary">100 составляет 70 \%% от ширины экрана, 5 составляет 30 \%% от ширины экрана. 0 по умолчанию будет по ширине кнопки.</string>
+    <string name="width_port_title">Панель в портретном виде</string>
+    <string name="width_land_title">Панель в альбомном виде</string>
+    <string name="navbar_longpress_title">Действие кнопки %1$s по долгому тапу</string>
+    <string name="navbar_action_home">Домой</string>
+    <string name="navbar_action_back">Назад</string>
+    <string name="navbar_action_recents">Недавние</string>
+    <string name="navbar_action_recents_gb">Недавние (GB style)</string>
+    <string name="navbar_action_search">Поиск</string>
+    <string name="navbar_action_screenshot">Скриншот</string>
+    <string name="navbar_action_menu">Меню</string>
+    <string name="navbar_action_ime">Показ способа ввода</string>
+    <string name="navbar_action_kill">Снять задачу</string>
+    <string name="navbar_action_lastapp">Последние приложения</string>
+    <string name="navbar_action_power">Питание</string>
+    <string name="navbar_action_notifications">Уведомления</string>
+    <string name="navbar_action_none">Пусто</string>
+    <string name="navbar_widgets">Виджеты панели навигации</string>
+    <string name="navigation_bar_tint_title">Цвет панели</string>
+    <string name="navigation_bar_colorall_title">Раскрасить все кнопки</string>
+    <string name="navigation_bar_colorall_summary">Если флажок установлен, пользовательские иконки будут раскрашены</string>
+    <string name="navigation_bar_glow_tint_title">Цвет подсветки</string>
+    <string name="navigation_bar_glow_tint_summary">Кнопка начинает светиться при нажатии, выберите цвет подсветки.</string>
+    <string name="glow_times_title">Анимация подсветки</string>
+    <string name="glow_times_off">Выкл</string>
+    <string name="glow_times_superquick">Мгновенная</string>
+    <string name="glow_times_quick">Быстрая</string>
+    <string name="glow_times_normal">Обычная</string>
+    <string name="navbar_widgets_instructions">Проведите для просмотра - Нажмите, чтобы выбрать</string>
+    <string name="navbar_widgets_reset">Сбросить виджеты</string>
+    <string name="navbar_widget_summary">Widget %1$s of %2$s</string>
+    <string name="navbar_widget_summary_add">Нажмите, чтобы добавить виджет</string>
+    <string name="navbar_widgets_title">Настройка виджетов</string>
+    <string name="navbar_widgets_shiftLeft">Сдвиг влево</string>
+    <string name="navbar_widgets_shiftRight">Сдвиг вправо</string>
+    <string name="navbar_widgets_delete">Удалить виджет</string>
+    <string name="navigation_bar_menu_arrow_keys_title">Меню на панели навигации</string>
+    <string name="navigation_bar_menu_arrow_keys_summary">Показать на панели навигации</string>
+
+    <!-- Nav Ring Targets -->
+    <string name="navbar_ring_cat">Кольца панели навигации (кнопка Домой)</string>
+    <string name="interface_softkey_settings">Настройки экранных клавиш</string>
+    <string name="interface_softkeys_pref_default_1_title">1 коротком нажатием</string>
+    <string name="interface_softkeys_pref_long_1_title">1 долгим нажатием</string>
+    <string name="interface_softkeys_pref_default_2_title">2 коротком нажатием</string>
+    <string name="interface_softkeys_pref_long_2_title">2 долгим нажатием</string>
+    <string name="interface_softkeys_pref_default_3_title">3 коротком нажатием</string>
+    <string name="interface_softkeys_pref_long_3_title">3 долгим нажатием</string>
+    <string name="interface_softkeys_pref_default_4_title">4 коротком нажатием</string>
+    <string name="interface_softkeys_pref_long_4_title">4 долгим нажатием</string>
+    <string name="interface_softkeys_pref_default_5_title">5 коротком нажатием</string>
+    <string name="interface_softkeys_pref_long_5_title">5 долгим нажатием</string>
+    <string name="interface_softkeys_pref_default_summary">Нажмите на значок для выбора действия по долгому Тапу</string>
+    <string name="interface_softkeys_activity_dialog_title">Выбрать действия</string>
+    <string name="interface_softkeys_reboot_title">Меню перезагрузки</string>
+    <string name="interface_softkeys_screenshot_title">Скриншот</string>
+    <string name="interface_softkeys_screenoff_title">Выкл. Экран</string>
+    <string name="interface_softkeys_ime_switcher_title">Открыть способы ввода</string>
+    <string name="interface_softkeys_ring_vib_title">Звонок/Вибро</string>
+    <string name="interface_softkeys_ring_silent_title">Звонок/Тихий</string>
+    <string name="interface_softkeys_ring_vib_silent_title">Звонок/Вибро/Тихий</string>
+    <string name="interface_softkeys_kill_process_title">Снять задачу</string>
+    <string name="interface_softkey_package_removed">Программа выбранная ранее не найдена</string>
+    <string name="interface_navring_settings_title">Кольцо в панели навигации</string>
+    <string name="interface_navring_settings_summary">Добавление колца на панель навигации</string>
+    <string name="title_navring_amount">Количество колец</string>
+    <string name="summary_navring_amount">Сколько колец нужно? *Изменяет текущие количество колец по умолчанию*</string>
+    <string name="interface_navring_custom_pref_summary">Удерживайте значок для запуска </string>
+    <string name="interface_navring_pref_default_summary">Нажмите для выбора действия</string>
+    <string name="interface_navring_assist_title">Google Now</string>
+    <string name="interface_navring">Кольца</string>
+    <string name="navbar_ring">Свои кольца</string>
+    <string name="navring_enable_long">Включить Longpress для navring</string>
+    <string name="navring_target_save">Сохранение настроек колец</string>
+    <string name="navring_target_reset_message">Хотите сбросить настройки действия колец?</string>
+    <string name="navring_target_reset">Сброс настроек колец</string>
+    <string name="choose_action_title">Выбрать действие</string>
+    <string name="choose_action_short_title">Выбрать при коротком нажатии</string>
+    <string name="choose_action_long_title">Выбрать при длительном нажатии</string>
+    <string name="action_long_save">Сохранить</string>
+    <string name="navring_target_info">Настрока колец</string>
+    <string name="navring_short">Кратковременно</string>
+    <string name="navring_long">Удерживая</string>
+    <string name="navring_icon">Пользовательская иконка</string>
+    <string name="navring_target_amount_text">Текущее количество колец</string>
+    <string name="navring_target_longpress_text">Статус Longpress</string>
+
+   <!-- Ribbon -->
+    <string name="ribbon_dialog_arrange_title">Макет панели</string>
+    <string name="ribbon_chooser_instructions">Выбор панели для установки</string>
+    <string name="ribbon_instructions">Нажмите значок, чтобы выбрать или удалить</string>
+    <string name="ribbon_targets_cat">Опции панели</string>
+    <string name="enable_ribbon_text_title">Показать название приложения</string>
+    <string name="enable_ribbon_vibrate_title">Вибрация в области нажатия</string>
+    <string name="enable_ribbon_text_summary">Включить текст названия приложения под значком</string>
+    <string name="ribbon_icon_vibrate_title">Вибрировать при нажатии</string>
+    <string name="ribbon_icon_space_title">Расстояние до значка на панели</string>
+    <string name="app_window_space_title">Размер между иконками по вертикали</string>
+    <string name="ribbon_icon_size_title">Размер значка</string>
+    <string name="ribbon_dismiss_title">Отменить действия панели</string>
+    <string name="ribbon_animation_duration_title">Продолжительность анимации</string>
+    <string name="ribbon_long_swipe_title">При коротком нажатии</string>
+    <string name="ribbon_long_press_title">При длительном нажатии</string>
+    <string name="ribbon_icon_size_summary">Установить размер значков</string>
+    <string name="ribbon_lockscreen">Панель экр.блокировки</string>
+    <string name="ribbon_notifications">Уведомления</string>
+    <string name="ribbon_quicksettings">Быстрые настройки</string>
+    <string name="ribbon_swipe_left">Левая выдвижная панель</string>
+    <string name="ribbon_swipe_right">Правая выдвижная панель</string>
+    <string name="ribbon_swipe_bottom">Нижняя выдвижная панель</string>
+    <string name="app_window">Применить в окне</string>
+    <string name="clone_title">Выберите панель для клонирования</string>
+    <string name="icon_size_normal">Нормальный</string>
+    <string name="icon_size_20">Средний</string>
+    <string name="icon_size_15">Небольшой</string>
+    <string name="ribbon_left_enable_title">Включение левой панели</string>
+    <string name="ribbon_right_enable_title">Включение правой панели</string>
+    <string name="ribbon_bottom_enable_title">Включение нижней панели</string>
+    <string name="ribbon_bottom_warning_title">Вы не можете использовать панель снизу с включенной панелью навигации, необходимо использовать автоскрытие панели навигации или вручную скрывать панель навигации</string>
+    <string name="ribbon_button_colorize_title">Цвет текста значков панели</string>
+    <string name="ribbon_color_title">Цвет панели</string>
+    <string name="text_color_title">Цвет текста иконки приложения</string>
+    <string name="ribbon_opacity_title">Прозрачность панели</string>
+    <string name="timeout_spinner_title">Автоскрытие панели</string>
+    <string name="ribbon_drag_handle_width_title">Ширина указателя перемещения</string>
+    <string name="ribbon_drag_handle_height_title">Высота указателя перемещения</string>
+    <string name="ribbon_insert">Вставить кнопку</string>
+    <string name="ribbon_handle_location_title">Расположение панели</string>
+    <string name="ribbon_icon_location_title">Иконки</string>
+    <string name="window_text_color_title">Цвета в текстовом окне</string>
+    <string name="window_color_title">Цвет окна</string>
+    <string name="window_opacity_title">Прозрачность окна</string>
+    <string name="window_columns_title">Столбцы в окне</string>
+    <string name="window_app_hide_title">Скрыть приложения</string>
+    <string name="center">По центру</string>
+    <string name="top">Верх</string>
+    <string name="bottom">Низ</string>
+    <string name="never">Никогда</string>
+    <string name="always">Всегда</string>
+    <string name="not_bar">Не активировать в нав.баре</string>
+    <string name="multi_select_title">Выбрать,что бы добавить</string>
+    <string name="ribbon_animation_type_title">Стиль анимации</string>
+    <string name="ribbon_toggles_button_title">Переключение кнопкой</string>
+    <string name="ribbon_hide_ime_title">Свернуть клавиатуру</string>
+
+    <!-- LED -->
+    <string name="led_on">LED Вкл</string>
+    <string name="led_time_on">Кратковременый при вкл</string>
+    <string name="led_off">LED Выкл</string>
+    <string name="led_time_off">Кратковременый при выкл</string>
+    <string name="led_time_seconds">" секунд"</string>
+    <string name="led_color_click">Изменить цвет LED</string>
+    <string name="title_led_screen_on">LED во время включения</string>
+    <string name="led_custom_app">Выбрать App</string>
+    <string name="led_custom_default">По умолчанию</string>
+    <string name="led_change_app">Изменить</string>
+    <string name="led_delete_app">Удалить</string>
+    <string name="led_keep_app">Удерживать</string>
+    <string name="led_custom_title">Custom LED Apps</string>
+    <string name="led_custom_message">"Хотели бы Вы изменить приложение: "</string>
+    <string name="led_edit_button">-</string>
+    <string name="led_test_notification">LED для уведомлений</string>
+    <string name="led_test_notification_message_now">"LED при получении уведомления "</string>
+    <string name="led_test_notification_message_note">"Пожалуйста, выключите экран, чтобы увидеть светодиод. Не нажимайте ОК пока не закончите просмотр цвета светодиода"</string>
+    <string name="led_test_ok">OK</string>
+    <string name="title_charging_led_on">Светодиод во время зарядки (требуется перезагрузка)</string>
+    <string name="led_change_brightness">Изменение яркости</string>
+    <string name="led_brightness_default">По умолчанию яркость: 31</string>
+
+    <!-- Sound -->
+    <string name="less_notification_sounds_title">Ограничение звуков уведомлений</string>
+    <string name="less_notification_sounds_summary">Ограничивает время проигрывания каждого звука уведомлений,один раз в заданное значение времени</string>
+    <string name="title_headphone_audio_mode">Если включены наушники</string>
+    <string name="summary_headphone_audio_mode">Что делать со звуком при вкл/выкл наушников?</string>
+    <string name="title_bt_audio_mode">Bluetooth A2DP</string>
+    <string name="summary_bt_audio_mode">Что делать со звуком при вкл./выкл A2DP устройства</string>
+    <string name="headphones_mode_no_action">Нет действия</string>
+    <string name="headphones_mode_vibrate">Режим Вибро</string>
+    <string name="headphones_mode_silent">Режим Без Звука</string>
+    <string name="title_flip_mode">Экран повернут вниз</string>
+    <string name="summary_flip_mode">Что делать со звуком при перевороте устройства вниз экраном</string>
+    <string name="flip_cat_title">Действие при перевороте</string>
+    <string name="title_timeout_sec">Таймаут экрана</string>
+    <string name="summary_timeout_sec">Время отклчения экрана до переворота</string>
+    <string name="title_down_sec">Время на переворот, сек.</string>
+    <string name="summary_down_sec">Время, отведенное на переворот экрана</string>
+    <string name="flip_action_positive">OK</string>
+    <string name="flip_dialog_title">Как это работает?</string>
+    <string name="flip_dialog_msg">Ваше устройство перейдет в режим Вибро/Без звука при перевороте его вниз экраном.
+        Это будет через 1.5 (по умолчанию) секунды .
+        Это будет отменено после обратного переворота экраном вверх через 15 (по умолчанию) секунд.</string>
+    <string name="summary_phone_flip_mode">Переворот экрана для отлючения звука входящего звонка</string>
+    <string name="title_phone_flip_mode">Бесшумный входящий звонок</string>
+
+    <!-- Lockscreen -->
+    <string name="lock_widgets_short">Виджеты</string>
+    <string name="lockscreen_security_cat">Безопасность</string>
+    <string name="lockscreen_layout_cat">Расположение</string>
+    <string name="lockscreen_music_cat">Музыка</string>
+    <string name="lockscreen_weather_cat">Погода</string>
+    <string name="lockscreen_calendar_cat">Календарь</string>
+
+    <string name="lockscreen_quick_unlock_control_title">Быстрый ввод PIN</string>
+    <string name="lockscreen_quick_unlock_control_summary">Разблокировка PIN без подтверждения</string>
+    <string name="lockscreen_menu_unlock_title">Разблок. по нажатию Меню</string>
+    <string name="lockscreen_menu_unlock_summary">Используйте клавишу меню для разблокировки экрана</string>
+    <string name="lockscreen_auto_rotate_title">Разрешить поворот экрана блокировки</string>
+    <string name="lockscreen_auto_rotate_summary">Если у вас включен Автоповорот экрана! Экран блокировки может поворачиваться по датчику положения</string>
+    <string name="lockscreen_all_widgets_title">Все виджеты</string>
+    <string name="lockscreen_all_widgets_summary">ВНИМАНИЕ ** Некоторые виджеты не предназначены для использования на экране блокировки, производитель виджетов и AOKP не несет ответственности за ваш выбор.</string>
+    <string name="lockscreen_unlimited_widgets_title">Добавление виджетов</string>
+    <string name="lockscreen_unlimited_widgets_summary">ВНИМАНИЕ ** Добавление слишком большого количества виджетов может вызвать проблемы экрана блокировки.</string>
+    <string name="lockscreen_battery_title">Заряд батареи</string>
+    <string name="lockscreen_battery_summary">Всегда показывать заряд батареи на экр. блокировки</string>
+    <string name="lockscreen_hide_initial_page_hints_title">Скрыть ссылку начальной страницы</string>
+    <string name="lockscreen_hide_initial_page_hints_summary">Указывает, будут ли подсказки для левой и правой кнопки, когда экран включен</string>
+    <string name="lockscreen_minimize_challenge_title">Свернуть экр. блокировки</string>
+    <string name="lockscreen_minimize_challenge_summary">Указывает, будет ли проблемы экрана блокировки (круг, узор, контакт) когда экран включен</string>
+    <string name="lockscreen_longpress_challenge_title">Включить longpress,для разблокировки</string>
+    <string name="lockscreen_longpress_challenge_summary">Позволяет разблокировать устройство с виджетами максимально долгим нажатием на значок замка</string>
+    <string name="lockscreen_use_widget_container_carousel_title">Виджет карусели</string>
+    <string name="lockscreen_use_widget_container_carousel_summary">Используйте карусели анимации для переключения между виджетами экр. блокировки</string>
+    <string name="volume_rocker_wake_title">Вкл. по нажатию громкости</string>
+    <string name="volume_rocker_wake_summary">Включать экран при нажатии на кнопки громкости</string>
+    <string name="volume_music_controls_title">Контроль музыки</string>
+    <string name="volume_music_controls_summary">Длинное нажатие переключает трек. Включение экрана нажатием громкости не работает в этом случае.</string>
+    <string name="lockscreen_stock_music_layout_title">Скин плеера по умолчанию</string>
+    <string name="lockscreen_stock_music_layout_summary">Использовать обычный скин при проигрывании музыки.</string>
+    <string name="lockscreen_wallpaper_title">Выбор обоев экрана блокировки</string>
+    <string name="lockscreen_wallpaper_summary">Можно убрать/поставить обои в данном окне</string>
+    <string name="lockscreen_text_color_title">Цвет текста</string>
+    <string name="lockscreen_weather_title">Вкл.</string>
+    <string name="lockscreen_weather_summary">Показывать погоду на Экр. Блокирвки. В ROMControl предварительно надо включить сервис погоды.</string>
+    <string name="lockscreen_weather_type_title">Стиль погоды на Экр. Блокировки</string>
+    <string name="lockscreen_weather_type_summary">Показывать погоду в виде текста или граф. виджета?</string>
+    <string name="lockscreen_calendar_title">Вкл.</string>
+    <string name="lockscreen_calendar_summary">Показывать события календаря на Экр. Блокировки.</string>
+    <string name="lockscreen_calendar_sources_title">Календари:</string>
+    <string name="lockscreen_calendar_sources_summary">Выберите календари для отображения.</string>
+    <string name="lockscreen_calendar_dialog">Выбор, какие календари будут использоваться</string>
+    <string name="lockscreen_calendar_close">Закрыть</string>
+    <string name="lockscreen_calendar_range_title">Диапазон времени</string>
+    <string name="lockscreen_calendar_range_summary">Выбор временного диапазона, который будет отображаться</string>
+    <string name="lockscreen_calendar_use_colors_title">Использовать цвет</string>
+    <string name="lockscreen_calendar_use_colors_summary">Использовать выделение событий цветом.</string>
+    <string name="lockscreen_calendar_hide_ongoing_title">Скрыть прошедшие/текущие события</string>
+    <string name="lockscreen_calendar_hide_ongoing_summary">Скрывает события, которые уже начались.</string>
+    <string name="lockscreen_calendar_flip_title">Много событий</string>
+    <string name="lockscreen_calendar_flip_summary">Показывает несколько событий, и перелистывать их.</string>
+    <string name="lockscreen_calendar_interval_title">Время перелистывания</string>
+    <string name="lockscreen_calendar_interval_summary">Выбор скорости анимации в сек.</string>
+    <string name="circles_lock_cat_title">Circle lockscreen settings</string>
+    <string name="circles_lock_bg_color_title">Цвет фона</string>
+    <string name="circles_lock_ring_color_title">Ring color</string>
+    <string name="circles_lock_ring_alpha_title">Ring alpha</string>
+    <string name="circles_lock_halo_color_title">Halo color</string>
+    <string name="circles_lock_halo_alpha_title">Halo alpha</string>
+    <string name="circles_lock_wave_color_title">Wave color</string>
+    <string name="circles_lock_wave_alpha_title">Wave alpha</string>
+
+    <!-- Lockscreen Targets-->
+    <string name="custom_targets">Custom lockscreen targets</string>
+    <string name="lockscreen_target_info">Drag the unlock icon to targets to assign targets</string>
+    <string name="lockscreen_target_title">Lockscreen targets</string>
+    <string name="lockscreen_target_summary">View or change custom lock screen shortcuts</string>
+    <string name="number_of_targets_title">Lockscreen targets amount</string>
+    <string name="number_of_targets_summary">How many targets do you want?</string>
+    <string name="picker_activities">Activities</string>
+    <string name="select_custom_activity_title">Select custom activity</string>
+    <string name="icon_picker_choose_icon_title">Choose icon</string>
+    <string name="icon_picker_alarm">Alarm</string>
+    <string name="icon_picker_browser">Browser</string>
+    <string name="icon_picker_calendar">Calendar</string>
+    <string name="icon_picker_camera">Camera</string>
+    <string name="icon_picker_email">Email</string>
+    <string name="icon_picker_facebook">Facebook</string>
+    <string name="icon_picker_gallery">Gallery</string>
+    <string name="icon_picker_googleplus">Google Plus</string>
+    <string name="icon_picker_googletalk">Google Talk</string>
+    <string name="icon_picker_maps">Maps</string>
+    <string name="icon_picker_movie">Movie</string>
+    <string name="icon_picker_music">Music</string>
+    <string name="icon_picker_nav_normal">Navigation</string>
+    <string name="icon_picker_phone">Phone</string>
+    <string name="icon_picker_podcast">Podcast</string>
+    <string name="icon_picker_rss">Rss</string>
+    <string name="icon_picker_search">Search</string>
+    <string name="icon_picker_sms">Messaging</string>
+    <string name="icon_picker_twitter">Twitter</string>
+    <string name="icon_picker_unlock">Unlock</string>
+    <string name="icon_picker_title">Choose icon source</string>
+    <string name="icon_picker_system_icons_title">System icons</string>
+    <string name="icon_picker_aokp_icons_title">AOKP icons</string>
+    <string name="icon_picker_gallery_title">Gallery</string>
+
+    <string name="aokp_icon_picker_aokp">AOKP Now</string>
+    <string name="aokp_icon_picker_browser">Browser</string>
+    <string name="aokp_icon_picker_calendar">Calendar</string>
+    <string name="aokp_icon_picker_camera">Camera</string>
+    <string name="aokp_icon_picker_clock">Clock</string>
+    <string name="aokp_icon_picker_email">Email</string>
+    <string name="aokp_icon_picker_facebook">Facebook</string>
+    <string name="aokp_icon_picker_gallery">Gallery</string>
+    <string name="aokp_icon_picker_googleplus">Google Plus</string>
+    <string name="aokp_icon_picker_googletalk">Google Talk</string>
+    <string name="aokp_icon_picker_maps">Maps</string>
+    <string name="aokp_icon_picker_movie">Movie</string>
+    <string name="aokp_icon_picker_music">Music</string>
+    <string name="aokp_icon_picker_navigation">Navigation</string>
+    <string name="aokp_icon_picker_phone">Phone</string>
+    <string name="aokp_icon_picker_podcast">Podcast</string>
+    <string name="aokp_icon_picker_rss">Rss</string>
+    <string name="aokp_icon_picker_sms">Messaging</string>
+    <string name="aokp_icon_picker_unlock">Unlock</string>
+    <string name="aokp_icon_picker_video">Video</string>
+    <string name="aokp_icon_picker_title">Choose icon source</string>
+    <string name="aokp_icon_picker_system_icons_title">System icons</string>
+    <string name="aokp_icon_picker_gallery_title">Gallery</string>
+
+    <string name="icon_picker_pack_title">Icon pack</string>
+    <string name="lockscreen_target_empty">Empty</string>
+    <string name="profile_reset_title">Сброс</string>
+    <string name="wifi_save">Сохранить</string>
+    <string name="lockscreen_options_info">Настройки отображения информации</string>
+    <string name="lockscreen_target_reset">Настройки по умолчанию</string>
+    <string name="lockscreen_target_save">Lockscreen targets saved</string>
+    <string name="lockscreen_target_save_error_title">Error saving targets</string>
+    <string name="lockscreen_target_save_error_msg">You must have at least one target that unlocks the screen!</string>
+    <string name="lockscreen_target_reset_title">Reset</string>
+    <string name="lockscreen_target_reset_message">Delete all user created lockscreen target and restore to default?</string>
+    <string name="lockscreen_target_edit_title">Edit target and icon</string>
+    <string name="lockscreen_target_edit_msg">Select or change the desired application or activity and the associated icon</string>
+
+    <string name="aokp_3targets">3 Targets</string>
+    <string name="aokp_4targets">4 Targets</string>
+    <string name="aokp_5targets">5 Targets</string>
+    <string name="aokp_6targets">6 Targets</string>
+    <string name="aokp_8targets">8 Targets</string>
+
+    <!-- Weather -->
+    <string name="weather_enable">Enable weather</string>
+    <string name="weather_enable_summary">Whether to pull weather information and display it throughout the ROM.</string>
+    <string name="weather_use_custom_location">Use custom location</string>
+    <string name="weather_use_custom_location_summary">Setting a custom location can save some battery. Otherwise network-location is used to determine your location.</string>
+    <string name="weather_custom_location_dialog_title">Set your location</string>
+    <string name="weather_custom_location_dialog_message">Be sure to follow the examples! Setting an invalid location will stop you from getting weather updates and may cause unexpected behavior.\n\nExamples: New York,NY // New York, NY // 10033 // London, England</string>
+    <string name="weather_custom_location_title">Custom location</string>
+    <string name="weather_show_location_title">Show location</string>
+    <string name="weather_show_location_summary">Show your location.</string>
+    <string name="weather_refresh_interval">Refresh interval</string>
+    <string name="weather_refresh_interval_minutes">" минут"</string>
+    <string name="weather_use_celcius">Metric units</string>
+    <string name="weather_use_celcius_summary">Enabling this will display weather temperature in Celsius rather than Fahrenheit and windspeed in km/h rather than mph.</string>
+    <string name="weather_statusbar_style">Statusbar weather style</string>
+    <string name="title_weather_longclick">Weather panel long click actions</string>
+    <string name="title_weather_shortclick">Weather panel short click actions</string>
+    <string name="update">Update weather panel</string>
+    <string name="weather_loc_warning_title">Cannot retrieve location!</string>
+    <string name="weather_loc_warning_msg">"Obtaining location from network is currently disabled. This breaks the ability to get the current weather in your current location. Please set a custom location or enable obtaining your location from your network."</string>
+    <string name="weather_loc_warning_positive">"Enable network location"</string>
+    <string name="weather_loc_warning_negative">"Don't enable."</string>
+    <string name="menu_weather_get_weather">Get weather</string>
+    <string name="weather_statusbar_hide">Weather panel hide options</string>
+    <string name="always_on">Always visible</string>
+    <string name="same_toggles">Hide with toggles</string>
+    <string name="opposite_toggles">Hide opposite of toggles</string>
+
+    <!-- Weather Codes -->
+    <string name="weather_0">Tornado</string>
+    <string name="weather_1">Tropical Storm</string>
+    <string name="weather_2">Hurricane</string>
+    <string name="weather_3">Severe Thunderstorms</string>
+    <string name="weather_4">Thunderstorms</string>
+    <string name="weather_5">Mixed Rain and Snow</string>
+    <string name="weather_6">Mixed Rain and Sleet</string>
+    <string name="weather_7">Mixed Snow and Sleet</string>
+    <string name="weather_8">Freezing Drizzle</string>
+    <string name="weather_9">Drizzle</string>
+    <string name="weather_10">Freezing Rain</string>
+    <string name="weather_11">Showers</string>
+    <string name="weather_12">Showers</string>
+    <string name="weather_13">Snow Flurries</string>
+    <string name="weather_14">Light Snow Showers</string>
+    <string name="weather_15">Blowing Snow</string>
+    <string name="weather_16">Snow</string>
+    <string name="weather_17">Hail</string>
+    <string name="weather_18">Sleet</string>
+    <string name="weather_19">Dust</string>
+    <string name="weather_20">Foggy</string>
+    <string name="weather_21">Haze</string>
+    <string name="weather_22">Smoky</string>
+    <string name="weather_23">Blustery</string>
+    <string name="weather_24">Windy</string>
+    <string name="weather_25">Cold</string>
+    <string name="weather_26">Cloudy</string>
+    <!-- mostly cloudy (night) -->
+    <string name="weather_27">Mostly Cloudy</string>
+    <!-- mostly cloudy (day) -->
+    <string name="weather_28">Mostly Cloudy</string>
+    <!-- partly cloudy (night) -->
+    <string name="weather_29">Partly Cloudy</string>
+    <!-- partly cloudy (day) -->
+    <string name="weather_30">Partly Cloudy</string>
+    <!-- clear (night) -->
+    <string name="weather_31">Clear</string>
+    <string name="weather_32">Sunny</string>
+    <!-- fair (night) -->
+    <string name="weather_33">Fair</string>
+    <!-- fair (day) -->
+    <string name="weather_34">Fair</string>
+    <string name="weather_35">Mixed Rain and Hail</string>
+    <string name="weather_36">Hot</string>
+    <string name="weather_37">Isolated Thunderstorms</string>
+    <string name="weather_38">Scattered Thunderstorms</string>
+    <string name="weather_39">Scattered Thunderstorms</string>
+    <string name="weather_40">Scattered Showers</string>
+    <string name="weather_41">Heavy Snow</string>
+    <string name="weather_42">Scattered Snow Showers</string>
+    <string name="weather_43">Scattered Snow Showers</string>
+    <string name="weather_44">Partly Cloudy</string>
+    <string name="weather_45">Thundershowers</string>
+    <string name="weather_46">Snow Showers</string>
+    <string name="weather_47">Isolated Thundershowers</string>
+    <!-- Forecase unavailable -->
+    <string name="weather_3200"></string>
+
+    <!-- Miscellaneous -->
+    <string name="location_unavailable">Unable to retrieve location information for weather update</string>
+
+    <!-- cardinal directions -->
+    <string name="direction_north">С</string>
+    <string name="direction_north_east">СВ</string>
+    <string name="direction_east">В</string>
+    <string name="direction_south_east">ЮВ</string>
+    <string name="direction_south">Ю</string>
+    <string name="direction_south_west">ЮЗ</string>
+    <string name="direction_west">З</string>
+    <string name="direction_north_west">СЗ</string>
+
+    <!-- Share to clipboard -->
+    <string name="clipboard_notification">В буфере.</string>
+
+    <!-- Custom vibrations -->
+    <string name="vibrations">Вибрация</string>
+    <string name="defaultvibrationname">"'По умолчанию'"</string>
+    <string name="vib_new">New/Reset</string>
+    <string name="vib_load">Load</string>
+    <string name="vib_rec">Record</string>
+    <string name="vib_TAP">TAP!</string>
+    <string name="vib_stop">Stop</string>
+    <string name="vib_play">Play</string>
+    <string name="vib_save">Save</string>
+    <string name="vib_del">Delete</string>
+
+    <string name="vib_dialog_text_entry">Сохранить</string>
+    <string name="vib_dialog_name">Имя:</string>
+    <string name="vib_cur_loaded_title">Загружена:</string>
+    <string name="help">Помощь</string>
+    <string name="vibration_detailed_help">Создание своей вибрации в 5 шагов:\n
+        - Нажать New/Reset\n
+		- Нажать Record\n
+		- Записать при помощи нажатий на кнопку TAP!\n
+		- Нажать Stop\n
+		- Нажать Save, ввести имя и нажать OK\n\n
+		Можно проверить нажав на Play.\n
+		Если надо изменить записанное, жмем Load, выбираем вибрацию, перезаписываем и сохраняем (перезапишем или сохраним новую).\n
+		Для удаления, жмем Delete, выбираем вибрацию и жмем Delete снова. Вибра по умолчанию не удалится.\n\n
+		Можно выбрать свою запись в разделе Звук в Настройках.\n
+		Можно, также, назначить спец. вибрацию определенным людям в вашем списке контактов: Выбираем контакт, там Меню/Установить вибрацию.</string>
+
+    <!-- boot animation stuff -->
+    <string name="insult_jerk">Jerk!</string>
+    <string name="insult_protekk">ProTekk!</string>
+    <string name="insult_unicorns">Розовые единороги для маленьких девочек</string>
+
+    <!-- clock stuff -->
+    <string name="right_clock">Часы справа</string>
+    <string name="center_clock">Часы по центру</string>
+    <string name="no_clock">Нет часов</string>
+    <string name="dont_show">Не показывать</string>
+    <string name="small_am_pm">Мелкий AM/PM</string>
+    <string name="regular_am_pm">AM/PM</string>
+    <string name="protekk_oclock">Часы от ProTekk</string>
+    <string name="small_weekday">День, мелкий</string>
+    <string name="regular_weekday">День </string>
+    <string name="short_month">Сокращенное</string>
+    <string name="long_month">Полное</string>
+
+    <!-- toggle style -->
+    <string name="icon_only">Только значок</string>
+    <string name="text_only">Только текст</string>
+
+    <!-- Brightness slider -->
+    <string name="on_top">Сверху</string>
+    <string name="on_the_bottom">Снизу</string>
+
+    <!-- Battery styles -->
+    <string name="icon_with_text">Иконка с %</string>
+    <string name="icon_with_centered_text">Иконка с % по центру</string>
+    <string name="circlemod">Круглая</string>
+
+    <!-- NavBar -->
+    <string name="right">Справа</string>
+    <string name="left">Слева</string>
+    <string name="both">Обе</string>
+    <string name="default_jb_behavior">Умолчания JellyBean</string>
+    <string name="always_show_invincible_icons">Всегда показывать невидимые иконки</string>
+    <string name="always_show">Всегда видны</string>
+    <string name="default_jb_with_invincible_icons_when_hidden">Умолчания JellyBean + невидимость иконок</string>
+    <string name="home">Домой</string>
+    <string name="back">Назад</string>
+    <string name="recents">Недавние</string>
+    <string name="search">Поиск</string>
+    <string name="screenshot">Скриншот</string>
+    <string name="menu">Меню</string>
+    <string name="toggle_widgets">Переключить Виджеты</string>
+    <string name="open_ime_switcher">Открыть переключатель IME</string>
+    <string name="kill_app">Убить</string>
+    <string name="lastapp">Последние приложения</string>
+    <string name="power">Питание</string>
+    <string name="notifications">Уведомления</string>
+    <string name="recents_gb">Недавние (GB style)</string>
+    <string name="custom_app">Своё ПО</string>
+    <string name="menu_power">Меню включения</string>
+    <string name="aokp_ribbon">Панель AOKP</string>
+    <string name="blank">Пусто</string>
+    <string name="none">нет</string>
+    <string name="take_screenshot">Сделать скриншот</string>
+    <string name="ring_vib">Звон/Вибр</string>
+    <string name="ring_silent">Звон/Тих</string>
+    <string name="ring_vib_silent">Звон/Вибр/Тих</string>
+    <string name="screen_off">Screen Off</string>
+    <string name="google_now">Google Now</string>
+    <string name="select_application">Выбрать приложение</string>
+    <string name="one_target">1 уст</string>
+    <string name="two_targets">2 уст</string>
+    <string name="three_targets">3 уст</string>
+    <string name="four_targets">4 уст</string>
+    <string name="five_targets">5 уст</string>
+    <string name="size_42_dp_default">42 пикс. (по умолчанию)</string>
+    <string name="size_36_dp">36 пикс.</string>
+    <string name="size_30_dp">30 пикс.</string>
+    <string name="size_24_dp">24 пикс.</string>
+    <string name="size_48_dp_default">48 пикс. (по умолчанию)</string>
+    <string name="size_44_dp">44 пикс.</string>
+    <string name="size_40_dp">40 пикс.</string>
+    <string name="size_42_dp">42 пикс.</string>
+    <string name="statusbar">Уведомления</string>
+    <string name="top_of_navbar">Сверху панели навигации</string>
+    <string name="bottom_of_navbar">Снизу панели навигации</string>
+    <string name="regular">Regular</string>
+    <string name="center_mirrored">От центра</string>
+    <string name="size_1_dp">1 пикс.</string>
+    <string name="size_2_dp">2 пикс.</string>
+    <string name="size_3_dp">3 пикс.</string>
+    <string name="size_4_dp">4 пикс.</string>
+
+    <!-- LED Values -->
+    <string name="time_0_seconds_off">Выкл.</string>
+    <string name="time_0_2_seconds">.2 секунд</string>
+    <string name="time_0_5_seconds">.5 секунд</string>
+    <string name="time_1_second">1 second</string>
+    <string name="time_1_5_seconds">1.5 секунд</string>
+    <string name="time_2_seconds">2 секунд</string>
+    <string name="time_2_5_seconds">2.5 секунд</string>
+    <string name="time_3_seconds">3 секунд</string>
+    <string name="time_3_5_seconds">3.5 секунд</string>
+    <string name="time_4_seconds">4 секунд</string>
+    <string name="time_4_5_seconds">4.5 секунд</string>
+    <string name="time_5_seconds">5 секунд</string>
+    <string name="time_5_5_seconds">5.5 секунд</string>
+    <string name="time_6_seconds">6 секунд</string>
+    <string name="time_7_seconds">7 секунд</string>
+    <string name="time_8_seconds">8 секунд</string>
+    <string name="time_9_seconds">9 секунд</string>
+    <string name="time_10_seconds">10 секунд</string>
+
+    <!-- LED brightness entries -->
+    <string name="low">low</string>
+    <string name="medium">medium</string>
+    <string name="high">high</string>
+    <string name="very_high">very high</string>
+    <string name="laserbeam">laserbeam</string>
+
+    <!-- Flip phone entries -->
+    <string name="disabled">Отключено</string>
+    <string name="enabled">Включено</string>
+    <string name="time_0_seconds_instant_off">0 секунд (Instant Off)</string>
+    <string name="time_15_seconds">15 секунд</string>
+    <string name="time_30_seconds">30 секунд</string>
+    <string name="time_45_seconds">45 секунд</string>
+    <string name="time_1_minute">1 minute</string>
+    <string name="time_1_5_minutes">1.5 минут</string>
+    <string name="time_2_minutes">2 минут</string>
+    <string name="time_2_5_minutes">2.5 минут</string>
+    <string name="time_3_minutes">3 минут</string>
+    <string name="time_3_5_minutes">3.5 минут</string>
+    <string name="time_4_minutes">4 минут</string>
+    <string name="time_5_minutes">5 минут</string>
+
+    <!-- weather arrays -->
+    <string name="off">Откл.</string>
+    <string name="time_10_minutes">10 минут</string>
+    <string name="time_30_minutes">30 минут</string>
+    <string name="time_45_minutes">45 минут</string>
+    <string name="time_60_minutes">60 минут</string>
+    <string name="time_2_hours">2 часа</string>
+    <string name="time_3_hours">3 часа</string>
+    <string name="time_4_hours">4 часа</string>
+    <string name="time_6_hours">6 часов</string>
+    <string name="time_8_hours">8 часов</string>
+    <string name="above_carrier_text">Above carrier text</string>
+    <string name="weather_panel">Weather panel</string>
+    <string name="text">Text</string>
+
+    <!-- lockscreen calendar arrays -->
+    <string name="time_1_day">1 день</string>
+    <string name="time_2_days">2 дня</string>
+    <string name="time_3_days">3 дня</string>
+    <string name="time_4_days">4 дня</string>
+    <string name="time_5_days">5 дней</string>
+    <string name="time_6_days">6 дней</string>
+    <string name="time_1_week">1 неделя</string>
+
+    <!-- minfree -->
+    <string name="size_25_mb">25mb</string>
+    <string name="size_50_mb">50mb</string>
+    <string name="size_75_mb">75mb</string>
+    <string name="size_80_mb">80mb</string>
+    <string name="size_100_mb">100mb</string>
+
+    <!-- less notification sounds -->
+    <string name="default_behavior">Вид по умолчанию</string>
+
+    <!-- signal style -->
+    <string name="show_signal_bars">В виде полос</string>
+    <string name="show_signal_text">В виде текста</string>
+    <string name="show_with_dbm">В виде dBm</string>
+
+    <!-- haptic feedback on toggle press -->
+    <string name="toggles_enable_haptic_feedback_title">Включить тактильную обратную связь</string>
+    <string name="toggles_enable_haptic_feedback_summary">Использует тактильную обратную связь при нажатии на переключатели</string>
+
+
+
+</resources>
